@@ -6,12 +6,12 @@ import { EnhancedContactSection } from "@/components/enhanced-contact-section"
 
 export default function HomePage() {
   return (
-    <main className="min-h-screen">
+    <>
       <EnhancedHeroSection />
       <EnhancedServicesSection />
       <PricingSection />
       <EnhancedAboutSection />
       <EnhancedContactSection />
-    </main>
+    </>
   )
 }
